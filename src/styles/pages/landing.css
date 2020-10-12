@@ -74,3 +74,41 @@
 .content-wrapper .enter-app:hover{
     background: #96feff;
 }
+
+/*TELAS MENORES*/
+
+@media only screen and (max-width:1024px){
+    #page-landing .content-wrapper{
+        max-width: 924px;
+        background: url('../../images/landing.svg') no-repeat 95% center;
+    }
+    #page-landing .content-wrapper main h1{
+        font-size: 68px;
+    }
+}
+
+@media only screen and (max-width:794px){
+    #page-landing .content-wrapper{
+        max-width: 668px;
+        background: url('../../images/landing.svg') no-repeat 100% center;
+        background-size: 50%;
+        padding: 30px 0;
+    }
+    #page-landing .content-wrapper main h1{
+        font-size: 48px;
+        width: 300px;
+    }
+    #page-landing .content-wrapper main p{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .content-wrapper .location{
+        top: 30px;
+    }
+    .content-wrapper .enter-app{
+        bottom: 30px;
+        width: 60px;
+        height: 60px;
+        border-radius: 20px;
+    }
+}

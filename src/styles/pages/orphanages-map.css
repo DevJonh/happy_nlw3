@@ -64,3 +64,28 @@
 #page-map .create-orphanage:hover{
     background-color: #17d6eb;
 }
+
+@media only screen and (max-width: 1024px){
+    #page-map aside{
+        padding: 40px;
+    }
+    #page-map aside p{
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 32px;
+    }
+}
+
+@media only screen and (max-width: 794px){
+    #page-map aside{
+        padding: 40px;
+    }
+    #page-map aside h2{
+       font-size: 36px;
+       line-height: 46px;
+    }
+    #page-map aside p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
